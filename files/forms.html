@@ -51,13 +51,63 @@
     <input type="checkbox" name="course" value="UI">UI
     <input type="checkbox" name="course" value="softskill">Soft Skill
 
-    <p>Please select the course: </p>
-    <select name="course">
-        <option value="" disabled selected>Selected a course</option>
+    <p>Please select the program: </p>
+    <select name="program">
+        <option value="" disabled selected>Selected a program</option>
         <option value="jd">Java Developer</option>
         <option value="sdet">Java SDET</option>
         <option value="cs">Cyber Security</option>
     </select>
+<br>
+<br>
+    <input type="button" value="Sign Up" id="sign up">
+
+    <h2>Please select your favorite food!</h2>
+    <input type="checkbox" name="food" value="burger">Burger
+    <input type="checkbox" name="food" value="kaba" >Kabab
+    <input type="checkbox" name="food" value="salad" >Salad
+    <br>
+    <hr>
+
+    <h2>Let us know how you want your food!</h2>
+    <textarea cols="25" rows="3">Comments Here!</textarea>
+    <br>
+    <hr>
+
+    <h2>Select your sauce!</h2>
+    <select name="sauce">
+        <option value="" disabled selected>sauces</option>
+        <option value="parmesan">parmesan</option>
+        <option value="ranch">ranch</option>
+        <option value="bbq">bbq</option>
+        <option value="chili">chili</option>
+    </select>
+
+    <hr>
+    <br>
+    <br>
+
+    <h1>Create an account with us in 3 easy steps!</h1>
+    <p>Creating an account allows you to track your order.</p>
+    <hr>
+
+    <p style="color: red">
+        Email:
+        <input type="text" name="email" placeholder="Enter email">
+    </p>
+
+    <p style="color: red">
+    Username:
+    <input type="text" name="username" placeholder="Enter username">
+</p>
+
+    <p style="color: red">
+        Password:
+        <input type="password" name="password" placeholder="Enter password">
+    </p>
+
+    <input type="submit" value="Sign Up" style="background-color: yellowgreen" onclick="alert('Thank you for Signing up!')">
+
 
 </form>
 
